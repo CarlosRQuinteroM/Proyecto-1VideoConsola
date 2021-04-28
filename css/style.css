@@ -1,0 +1,19 @@
+.espacio{
+    width: 60em;
+    height: 30em;
+    position: relative;
+    left: 20em;
+    top: 10em;
+    display: flex;
+    justify-items: center;
+ }
+.cuerpoMando{
+    width: 45em;
+    height: 22em;
+    border: 0.01em solid black;
+    border-radius: 5em;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+
+}
