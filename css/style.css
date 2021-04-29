@@ -108,8 +108,14 @@ img.camara{
     border: solid black 0.1em;
 }
 .circulo{
-    width: 3em;
-    height: 4em;
-    border: 0.1em solid;
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    left: 9em;
+    top: 6em;
+    border: 1.5em solid grey;
 }
 
