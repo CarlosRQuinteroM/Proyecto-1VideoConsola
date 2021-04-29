@@ -252,8 +252,8 @@ img.camara{
     position: absolute;
     align-items: center;
     width: 50em;
-    height: 30em;
-    top: 7em;
+    height: 29em;
+    top: 5.6em;
     left: 16.6em;
     border: grey solid 0.01em;
     border-radius: 1em;
@@ -268,5 +268,4 @@ img.camara{
     border: grey solid 0.01em;
     background: rgb(72,79,79);
     background: linear-gradient(120deg, rgba(72,79,79,1) 12%, rgba(66,70,70,1) 23%, rgba(54,60,60,1) 33%, rgba(38,42,42,1) 42%, rgba(42,40,40,1) 55%);
-   
 }
