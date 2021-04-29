@@ -1,3 +1,9 @@
+body{
+    background-image:url(../img/1200px-Wii_U_controller_illustration.svg.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top:30em
+}
 .espacio{
     width: 100em;
     height: 70em;
@@ -6,11 +12,13 @@
     justify-items: center;
     align-items: center;
     margin: auto;
+
+   
  }
 .cuerpoMando{
     width: 85em;
     height: 42em;
-    border-radius: 10em;
+    border-radius: 12em;
     align-content: center;
     display: flex;
     position: relative;
@@ -21,9 +29,12 @@
     background: linear-gradient(24deg, rgba(219,219,219,1) 0%, rgba(209,209,209,1) 21%, rgba(203,200,200,1) 30%, rgba(221,221,221,1) 53%, rgba(228,228,228,1) 78%, rgba(223,223,223,1) 85%);
 
     /* Sombra al cuerpo principal */
+     border-top: rgb(199, 199, 199) 0.2em solid;
+     border-bottom: rgb(199, 199, 199) 0.6em solid;
+     border-right:rgb(199, 199, 199) 0.5em solid ;
+     border-left: rgb(199, 199, 199) 0.2em solid;
      box-shadow: 2em 2em 5em rgb(167, 167, 167);
-     border-top: rgb(156, 156, 156) 0.2em solid;
-     border-right:rgb(156, 156, 156) 0.2em solid ;
+     
 
 }
 .botonesL1L2{
