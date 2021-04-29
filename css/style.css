@@ -266,12 +266,13 @@ img.camara{
     height: 27em;
     left: 1em;
     border: grey solid 0.01em;
-    background: rgb(72,79,79);
-    background: linear-gradient(120deg, rgba(72,79,79,1) 12%, rgba(66,70,70,1) 23%, rgba(54,60,60,1) 33%, rgba(38,42,42,1) 42%, rgba(42,40,40,1) 55%);
+    background: rgb(203,203,203);
+    background: linear-gradient(220deg, rgba(203,203,203,1) 1%, rgba(121,120,120,1) 13%, rgba(75,75,75,1) 27%, rgba(65,65,65,1) 37%, rgba(48,48,48,1) 56%, rgba(33,33,33,1) 70%);
 }
 .botonoesIzquierda{
     display: flex;
     position: absolute;
+    align-items: flex-start;
     width: 16.5em;
     height: 34.5em;
     border:solid black 0.1em;
@@ -324,4 +325,17 @@ img.camara{
     background-color:transparent;
     border:solid 0.02em rgb(182, 181, 181);
     box-shadow: 0.02em 0.2em 0.2em rgb(117, 117, 117)
+}
+
+/* clase Cruz Izquierda */
+.cruz{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 8em;
+    height: 8em;
+    right: 3em;
+    top: 15em;
+    border: grey 0.1em solid;
+
 }
