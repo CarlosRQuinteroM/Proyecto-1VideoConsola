@@ -23,8 +23,8 @@ body{
     margin: auto;
     justify-items: center;
     /* Background color difuminado */
-    background: rgb(219,219,219);
-    background: linear-gradient(24deg, rgba(219,219,219,1) 0%, rgba(209,209,209,1) 21%, rgba(203,200,200,1) 30%, rgba(221,221,221,1) 53%, rgba(228,228,228,1) 78%, rgba(223,223,223,1) 85%);
+    background: rgb(247,247,247);
+    background: linear-gradient(172deg, rgba(247,247,247,1) 0%, rgba(228,228,228,1) 15%, rgba(233,233,233,1) 27%, rgba(221,221,221,1) 38%, rgba(223,223,223,1) 52%, rgba(212,212,212,1) 66%, rgba(221,221,221,1) 72%, rgba(209,209,209,1) 85%);
 
     /* Sombra al cuerpo principal */
      border-top: rgb(182, 181, 181) 0.2em solid;
@@ -49,7 +49,7 @@ body{
     height: 3em;
     left: 0.3em;
     top: 3.8em;
-    background-color: rgb(192, 192, 192);
+    background-color: rgb(143, 140, 140);
     border-radius: 50%;
     transform: rotate(-36deg);
 }
@@ -61,7 +61,7 @@ body{
     height: 3em;
     left: 66em;
     top: 3.9em;
-    background-color:  rgb(192, 192, 192);
+    background-color: rgb(143, 140, 140);
     border-radius: 50%;
     transform: rotate(-142deg);
 }
@@ -268,4 +268,60 @@ img.camara{
     border: grey solid 0.01em;
     background: rgb(72,79,79);
     background: linear-gradient(120deg, rgba(72,79,79,1) 12%, rgba(66,70,70,1) 23%, rgba(54,60,60,1) 33%, rgba(38,42,42,1) 42%, rgba(42,40,40,1) 55%);
+}
+.botonoesIzquierda{
+    display: flex;
+    position: absolute;
+    width: 16.5em;
+    height: 34.5em;
+    border:solid black 0.1em;
+}
+.circuloIsquierda{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 8em;
+    height: 8em;
+    border-radius: 50%;
+    left: 5em;
+    top: 5em;
+    box-shadow: rgb(167, 167, 167);
+    background: rgb(196,196,196);
+    background: linear-gradient(233deg, rgba(196,196,196,1) 40%, rgba(138,136,136,1) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
+}
+.circuloI-1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    left: 1.2em;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0em 0.1em  0.2em 0.21em  rgb(105, 105, 105);
+}
+.circuloI1-2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 5.5em;
+    height: 5.5em;
+    left: 0.4em;
+    border-radius: 50%;
+    background-color: rgb(200, 200, 200);
+    box-shadow: 0.02em 0.2em 1.2em rgb(83, 83, 83)
+     
+}
+.circuloI2-2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 4.2em;
+    height: 4.2em;
+    border-radius: 50%;
+    left: 0.5em;
+    background-color:transparent;
+    border:solid 0.02em rgb(182, 181, 181);
+    box-shadow: 0.02em 0.2em 0.2em rgb(117, 117, 117)
 }
