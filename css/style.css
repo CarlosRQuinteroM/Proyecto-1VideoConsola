@@ -106,8 +106,9 @@ img.camara{
     align-items: center;
     width: 4.7em;
     left: 11em;
-    border: none;
+   border-image:space 1em;
     box-shadow:  8em 0 0   8em transparent inset;
+    
 }
 
 
