@@ -198,7 +198,7 @@ img.camara{
     position: relative;
     width: 3em;
     height: 3em;
-    font-family:serif;
+    font-family: sans-serif;
      border-radius: 50%;
      background: rgb(240,246,246);
      background: linear-gradient(180deg, rgba(240,246,246,1) 18%, rgba(198,198,198,1) 50%);
@@ -206,7 +206,7 @@ img.camara{
     box-shadow: 0.02em 0.3em 0.5em rgb(34, 32, 32);
     align-items: center;
     align-content: center;
-    color: rgb(136, 134, 134);
+    color: rgb(105, 103, 103);
 }
 .botones-Plus{
     display: flex;
@@ -240,11 +240,11 @@ img.camara{
      border-radius: 50%;
      background: rgb(240,246,246);
      background: linear-gradient(180deg, rgba(240,246,246,1) 18%, rgba(198,198,198,1) 50%);
-    border:solid 0.02em rgb(98, 98, 98);
+    border:solid 0.18em rgb(73, 72, 72);
     box-shadow: 0.02em 0.3em 0.5em rgb(34, 32, 32);
     align-items: center;
     align-content: center;
-    color: rgb(121, 121, 121);
+    color: rgb(77, 77, 77);
     font-size: 1em;
 }
 .pantallaPrincipal{
