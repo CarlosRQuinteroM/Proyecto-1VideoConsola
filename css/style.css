@@ -12,8 +12,6 @@ body{
     justify-items: center;
     align-items: center;
     margin: auto;
-
-   
  }
 .cuerpoMando{
     width: 85em;
@@ -34,8 +32,6 @@ body{
      border-right:rgb(199, 199, 199) 0.5em solid ;
      border-left: rgb(199, 199, 199) 0.2em solid;
      box-shadow: 2em 2em 5em rgb(167, 167, 167);
-     
-
 }
 .botonesL1L2{
     position: relative;
@@ -44,7 +40,6 @@ body{
     height: 8em;
     display: flex;
     justify-items: center;
-
 }
 
 .botonL1{
@@ -57,7 +52,6 @@ body{
     background-color: rgb(192, 192, 192);
     border-radius: 50%;
     transform: rotate(-36deg);
-    
 }
 
 .botonL2{
@@ -70,7 +64,6 @@ body{
     background-color:  rgb(192, 192, 192);
     border-radius: 50%;
     transform: rotate(-142deg);
-    
 }
 .camara1{
     display: flex;
@@ -108,16 +101,13 @@ img.camara{
     left: 11em;
    border-image:space 1em;
     box-shadow:  8em 0 0   8em transparent inset;
-    
 }
-
-
 .botonesDerecha{
     display: flex;
     position: relative;
     width: 33em;
     height: 33em;
-    border: solid black 0.1em;
+ 
 }
 .circulo{
     display: flex;
@@ -127,13 +117,11 @@ img.camara{
     height: 8em;
     border-radius: 50%;
     left: 10em;
-    top: 6em;
+    top: 5em;
     box-shadow: rgb(167, 167, 167);
     background: rgb(196,196,196);
     background: linear-gradient(233deg, rgba(196,196,196,1) 40%, rgba(138,136,136,1) 71%);
     box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
-    
-    
 }
 .circuloD-1{
     display: flex;
@@ -167,6 +155,118 @@ img.camara{
     border-radius: 50%;
     left: 0.5em;
     background-color:transparent;
-    border:solid 0.02em rgb(165, 165, 165);
-    box-shadow: 0.02em 0.2em 0.2em rgb(83, 83, 83)
+    border:solid 0.02em rgb(182, 181, 181);
+    box-shadow: 0.02em 0.2em 0.2em rgb(117, 117, 117)
+}
+.botonesXABY{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 12em;
+    height: 12em;
+    top: 13em;
+    left: -2em;
+
+
+}
+.botonX{
+    display: flex;
+    position: relative;
+    top: -3.4em;
+    left: 4.5em;
+
+}
+.botonY{
+    display: flex;
+    position: relative;
+    right: 8em ;
+
+}
+.botonA{
+    display: flex;
+    position: relative;
+    left:5em;
+}
+.botonB{
+    display: flex;
+    position: relative;
+    top: 3.2em;
+    left: -1.5em;
+}
+.botonDerecha{
+    display: flex;
+    position: relative;
+    width: 3em;
+    height: 3em;
+    font-family:serif;
+     border-radius: 50%;
+     background: rgb(240,246,246);
+     background: linear-gradient(180deg, rgba(240,246,246,1) 18%, rgba(198,198,198,1) 50%);
+    border:solid 0.02em rgb(98, 98, 98);
+    box-shadow: 0.02em 0.3em 0.5em rgb(34, 32, 32);
+    align-items: center;
+    align-content: center;
+    color: rgb(136, 134, 134);
+}
+.botones-Plus{
+    display: flex;
+    position: relative;
+    align-content: center;
+    width: 4em;
+    height: 7em;
+    top: 26em;
+    right: 13em;
+}
+.boton-{
+    display: flex;
+    position: relative;
+    align-content: center;
+     top: 4em;
+     left:1em ;
+}
+.botonPlus{
+    display: flex;
+    position: relative;
+    align-content: center;
+     right: 1em;
+}
+
+.boton-P{
+    display: flex;
+    position: relative;
+    width: 2em;
+    height: 2em;
+    font-family:serif;
+     border-radius: 50%;
+     background: rgb(240,246,246);
+     background: linear-gradient(180deg, rgba(240,246,246,1) 18%, rgba(198,198,198,1) 50%);
+    border:solid 0.02em rgb(98, 98, 98);
+    box-shadow: 0.02em 0.3em 0.5em rgb(34, 32, 32);
+    align-items: center;
+    align-content: center;
+    color: rgb(121, 121, 121);
+    font-size: 1em;
+}
+.pantallaPrincipal{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 50em;
+    height: 30em;
+    top: 7em;
+    left: 16.6em;
+    border: grey solid 0.01em;
+    border-radius: 1em;
+}
+.pantalla{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 48em;
+    height: 27em;
+    left: 1em;
+    border: grey solid 0.01em;
+    background: rgb(72,79,79);
+    background: linear-gradient(120deg, rgba(72,79,79,1) 12%, rgba(66,70,70,1) 23%, rgba(54,60,60,1) 33%, rgba(38,42,42,1) 42%, rgba(42,40,40,1) 55%);
+   
 }
