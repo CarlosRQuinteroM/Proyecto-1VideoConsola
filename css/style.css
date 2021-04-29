@@ -121,7 +121,7 @@ img.camara{
     box-shadow: rgb(167, 167, 167);
     background: rgb(196,196,196);
     background: linear-gradient(233deg, rgba(196,196,196,1) 40%, rgba(138,136,136,1) 71%);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
+    box-shadow: 0.4em 0.1em  1em 0.1em  rgb(167, 167, 167);
 }
 .circuloD-1{
     display: flex;
@@ -288,7 +288,7 @@ img.camara{
     box-shadow: rgb(167, 167, 167);
     background: rgb(196,196,196);
     background: linear-gradient(233deg, rgba(196,196,196,1) 40%, rgba(138,136,136,1) 71%);
-    box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
+    box-shadow: 0.4em 0.1em  1em 0.1em  rgb(167, 167, 167);
 }
 .circuloI-1{
     display: flex;
