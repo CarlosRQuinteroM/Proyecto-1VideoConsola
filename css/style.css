@@ -1,19 +1,61 @@
 .espacio{
-    width: 60em;
-    height: 30em;
-    position: relative;
-    left: 20em;
-    top: 10em;
-    display: flex;
-    justify-items: center;
- }
-.cuerpoMando{
-    width: 45em;
-    height: 22em;
-    border: 0.01em solid black;
-    border-radius: 5em;
+    width: 100em;
+    height: 70em;
     margin: auto;
     display: flex;
     justify-items: center;
+    align-items: center;
+    margin: auto;
+ }
+.cuerpoMando{
+    width: 85em;
+    height: 42em;
+    border: 0.01em solid black;
+    border-radius: 10em;
+    align-content: center;
+    display: flex;
+    margin: auto;
+    justify-items: center;
+    background-color: rgb(173, 173, 173);
+}
 
+.botonesL1L2{
+    position: relative;
+    top: -2.8em;
+    width: 100em;
+    height: 10em;
+    display: flex;
+    justify-items: center;
+    border: black solid 0.01em;
+}
+
+.botonL1{
+    position: relative;
+    z-index: -1;
+    width: 9.5em;
+    height: 3em;
+    left: 0.3em;
+    top: 3.3em;
+    background-color: rgb(167, 167, 167);
+    border-radius: 50%;
+    transform: rotate(-30deg);
+    
+}
+
+.botonL2{
+    position: relative;
+    z-index: -1;
+    width: 9.5em;
+    height: 3em;
+    left: 66.2em;
+    top: 3.8em;
+    background-color: rgb(187, 185, 185);
+    border-radius: 50%;
+    transform: rotate(-143deg);
+    
+}
+.b1{
+    width: 1em;
+    height: 1em;
+    background-color: ;
 }
