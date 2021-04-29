@@ -123,10 +123,10 @@ img.camara{
     display: flex;
     position: relative;
     align-items: center;
-    width: 12em;
-    height: 12em;
+    width: 8em;
+    height: 8em;
     border-radius: 50%;
-    left: 7.8em;
+    left: 10em;
     top: 6em;
     box-shadow: rgb(167, 167, 167);
     background: rgb(196,196,196);
@@ -135,4 +135,38 @@ img.camara{
     
     
 }
-
+.circuloD-1{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    left: 1.2em;
+    background-color: rgb(224, 224, 224);
+    box-shadow: 0em 0.1em  0.2em 0.21em  rgb(105, 105, 105);
+}
+.circuloD1-2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 5.5em;
+    height: 5.5em;
+    left: 0.4em;
+    border-radius: 50%;
+    background-color: rgb(200, 200, 200);
+    box-shadow: 0.02em 0.2em 1.2em rgb(83, 83, 83)
+     
+}
+.circulo2-2{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 4.2em;
+    height: 4.2em;
+    border-radius: 50%;
+    left: 0.5em;
+    background-color:transparent;
+    border:solid 0.02em rgb(165, 165, 165);
+    box-shadow: 0.02em 0.2em 0.2em rgb(83, 83, 83)
+}
