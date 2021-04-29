@@ -53,10 +53,10 @@ body{
     width: 9.5em;
     height: 3em;
     left: 0.3em;
-    top: 3.3em;
+    top: 3.8em;
     background-color: rgb(192, 192, 192);
     border-radius: 50%;
-    transform: rotate(-30deg);
+    transform: rotate(-36deg);
     
 }
 
@@ -66,10 +66,10 @@ body{
     width: 9.5em;
     height: 3em;
     left: 66em;
-    top: 3.6em;
+    top: 3.9em;
     background-color:  rgb(192, 192, 192);
     border-radius: 50%;
-    transform: rotate(-146deg);
+    transform: rotate(-142deg);
     
 }
 .camara1{
@@ -123,11 +123,16 @@ img.camara{
     display: flex;
     position: relative;
     align-items: center;
-    width: 8em;
-    height: 8em;
+    width: 12em;
+    height: 12em;
     border-radius: 50%;
-    left: 9em;
+    left: 7.8em;
     top: 6em;
-    border: 1.5em solid grey;
+    box-shadow: rgb(167, 167, 167);
+    background: rgb(196,196,196);
+    background: linear-gradient(233deg, rgba(196,196,196,1) 40%, rgba(138,136,136,1) 71%);
+    box-shadow: 0em 0.1em  1em 0.1em  rgb(167, 167, 167);
+    
+    
 }
 
