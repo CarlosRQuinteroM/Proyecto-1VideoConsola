@@ -530,7 +530,7 @@ img.camara{
     width: 4em;
     height: 4em;
     border-radius: 50%;
-    border:grey solid 1px;
+    border:grey solid 0.0625em;
     left: 38em;
     background-color: rgb(62, 136, 206);
  }
