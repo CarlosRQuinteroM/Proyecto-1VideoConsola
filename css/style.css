@@ -547,7 +547,7 @@ img.camara{
  }
  .home:hover{
      transform: scale(1.1);
-     transition: 0.1s;
+     transition: 0.5s;
  }
  .imgHome{
     display: flex;
