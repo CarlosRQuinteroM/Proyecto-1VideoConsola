@@ -414,9 +414,7 @@ img.camara{
     align-items: center;
     top: 4.5em;
     left: 68em;
-
 }
-
 .radioParlantes{
     width: 2em;
     height: 0.8em;
@@ -425,4 +423,16 @@ img.camara{
     border-bottom-right-radius:30%;
     border-bottom-left-radius:30% ;
     background-color: rgb(56, 56, 56);
+}
+
+
+.logoWiiu{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: 19em;
+    top: 1em;
+}
+.wiiU{
+    width: 7em;
 }
