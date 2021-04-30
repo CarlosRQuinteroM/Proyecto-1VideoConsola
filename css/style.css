@@ -328,14 +328,24 @@ img.camara{
 }
 
 /* clase Cruz Izquierda */
-.cruz{
-    display: flex;
-    position: relative;
-    align-items: center;
-    width: 8em;
-    height: 8em;
-    right: 3em;
-    top: 15em;
-    border: grey 0.1em solid;
 
+
+
+.cruz{
+    position: relative;
+    margin: left 4.5em; 
+    top: 14.75em;
+}
+
+.cruz-1, .cruz-2{
+    position: absolute;
+    left:  2.87em;
+    width:  1.97em;
+    height: 5.9em;
+    background: rgb(143, 143, 143);
+    border-radius: 0.4em;
+}
+/* rotate 90grados */
+.cruz-2{
+  transform: rotate(90deg);
 }
