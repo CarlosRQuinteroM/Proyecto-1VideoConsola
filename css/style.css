@@ -488,3 +488,32 @@ img.camara{
      width: 2.5em;
      left:0.8em;
  }
+
+ .bateria{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 1.5em;
+    height: 3em;
+    top: 3em;
+    left: 54em;
+ }
+ .puntoBateria{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 0.4em;
+    height: 0.4em;
+    left: 0.6em;
+    top: 0.7em;
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+ }
+ .textoBateria{
+    display: flex;
+    position: absolute;
+    align-items: center;
+     left: -1em;
+     padding-top: 4em;
+     font-size: 00.81em;
+ }
