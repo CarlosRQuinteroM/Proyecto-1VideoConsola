@@ -517,3 +517,35 @@ img.camara{
      padding-top: 4em;
      font-size: 00.81em;
  }
+ .tV{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 3em;
+    height: 3em;
+    top: 2.5em;
+    left: 59em;
+ 
+ }
+ 
+ .botonTv{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 1.7em;
+    height: 1.7em;
+    border-radius: 30%;
+    background-color: rgb(202, 202, 202);
+    border: solid rgb(146, 146, 146) 0.2em;
+    color: blue;    
+    font-size: 1.1em;
+ }
+ .textTv{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    left: -1em;
+     top: 2.87em;
+     font-size: 00.81em;
+     color: rgb(68, 68, 68);
+ }
