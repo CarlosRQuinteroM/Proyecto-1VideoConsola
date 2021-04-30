@@ -1,8 +1,8 @@
 .logoPrincipal{
     display: flex;
-    position: relative;
+    position: absolute;
     left: 45%;
-    top:6em;
+    top:1em;
 }
 .espacio{
     width: 100em;
