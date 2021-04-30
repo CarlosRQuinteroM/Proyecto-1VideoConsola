@@ -389,7 +389,6 @@ img.camara{
     height: 8em;
     display: flex;
     justify-items: center;
-    border: solid  rgb(165, 165, 165) 0.2em;
 }
 /* Parlantes Inferiores */
 .cornetasA-1{
@@ -473,7 +472,6 @@ img.camara{
      height: 3em;
      border-radius: 50%;
      background-color: rgb(212, 212, 212);
-     border:rgb(116, 114, 114) solid 1px;
      padding: 2em ;
      left: 0.25em;
  }
@@ -572,4 +570,23 @@ img.camara{
     top: -0.59em;
     border-radius: 50%;
     background-color: rgb(160, 160, 160);
+ }
+ .buttonPower{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 2.8em;
+    height: 2.8em;
+    left: -0.1em;
+     border-radius: 50%;
+     background-color: rgb(185, 185, 185);
+ }
+ .powerText{
+    display: flex;
+    position: relative;
+    align-items: center;
+     top: 1.9em;
+     left: -0.6em;
+     font-size: 00.81em;
+     color: rgb(68, 68, 68);
  }
