@@ -328,24 +328,71 @@ img.camara{
 }
 
 /* clase Cruz Izquierda */
-
-
-
 .cruz{
-    position: relative;
-    margin: left 4.5em; 
-    top: 14.75em;
+    position: absolute;
+    display: flex;
+    width: 9em;
+    height: 8em;
+    right: 1em;
+    top: 14em;
+    border: solid 0.1em black;
 }
 
 .cruz-1, .cruz-2{
     position: absolute;
-    left:  2.87em;
-    width:  1.97em;
-    height: 5.9em;
-    background: rgb(143, 143, 143);
-    border-radius: 0.4em;
+    left:  3em;
+    width:  2.5em;
+    height: 8em;
+    background: rgb(194, 193, 193);
+    border-radius: 0.2em;
+
+
 }
 /* rotate 90grados */
 .cruz-2{
   transform: rotate(90deg);
+ 
+}
+/* apartado para la CRUZ */
+
+
+
+/* ---------- */
+
+.imagenCuadroIZQ{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 5em;
+    height: 3em;
+    top: 26em;
+    right: 3em;
+}
+.primerCuadro{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 3.5em;
+    height: 2.5em;
+    border-radius: 0.5em;
+    border: solid rgb(165, 165, 165) 0.2em;
+    border-left: transparent;
+    border-bottom: transparent;
+}
+.segundoCuadro{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 3em;
+    height: 1.7em;
+    border-radius: 0.5em;
+    border: solid  rgb(165, 165, 165) 0.2em;
+}
+.botonesInferiores{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: em;
+    height: 1.7em;    
+    border: solid black 1px;
 }
