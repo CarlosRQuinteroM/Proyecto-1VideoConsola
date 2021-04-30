@@ -1,4 +1,9 @@
-
+.logoPrincipal{
+    display: flex;
+    position: relative;
+    left: 85em;
+    top:6em;
+}
 .espacio{
     width: 100em;
     height: 70em;
@@ -26,7 +31,7 @@
      border-bottom: rgb(172, 170, 170) 0.6em solid;
      border-right:rgb(172, 170, 170) 0.6em solid ;
      border-left: rgb(182, 181, 181) 0.2em solid;
-     box-shadow: 2em 2em 5em rgb(167, 167, 167);
+     box-shadow: 2em 2em 5em rgb(167, 167, 167);box-shadow: 2em 2em 5em rgb(167, 167, 167);
 }
 .botonesL1L2{
     position: relative;
