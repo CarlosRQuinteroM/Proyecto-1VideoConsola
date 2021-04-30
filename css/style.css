@@ -1,9 +1,4 @@
-body{
-    background-image:url(../img/1200px-Wii_U_controller_illustration.svg.png);
-    background-repeat: no-repeat;
-    position: relative;
-    top:30em
-}
+
 .espacio{
     width: 100em;
     height: 70em;
@@ -267,7 +262,7 @@ img.camara{
     align-items: flex-start;
     width: 16.5em;
     height: 34.5em;
-    border:solid black 0.1em;
+
 }
 .circuloIsquierda{
     display: flex;
@@ -324,30 +319,76 @@ img.camara{
     position: absolute;
     display: flex;
     width: 9em;
-    height: 8em;
+    height: 9em;
     right: 1em;
     top: 14em;
-    border: solid 0.1em black;
+    
 }
 
-.cruz-1, .cruz-2{
-    position: absolute;
-    left:  3em;
-    width:  2.5em;
-    height: 8em;
-    background: rgb(194, 193, 193);
-    border-radius: 0.2em;
-
-
-}
-/* rotate 90grados */
-.cruz-2{
-  transform: rotate(90deg);
+.cruz1 {
+    width: 9em;
+    height: 9em;
+    position: relative;
+   
+ }
  
-}
-/* apartado para la CRUZ */
+ .cruz1:before, .cruz1:after {
+   content: "";
+   position: absolute;
+   z-index: 0;
+   border-radius: 0.3em;
+   background: rgb(136, 134, 134);
+   box-shadow: 0.3em 0.3em 0.2em rgb(158, 157, 157)
+
+ }
+ 
+ .cruz1:before {
+   left: 50%;
+   width: 30%;
+   margin-left: -15%;
+   height: 100%;
+ }
+ 
+ .cruz1:after {
+   top: 50%;
+   height: 30%;
+   margin-top: -15%;
+   width: 100%;
+ }
+ /* ---- */
+ .cruz2 {
+    width: 8.8em;
+    height: 8.8em;
+    position: absolute;
+   
+ }
+ 
+ .cruz2:before, .cruz2:after {
+   content: "";
+   display: flex;
+   position: absolute;
+   z-index: 1;
+   border-radius: 0.3em;
+   background: rgb(213, 213, 213);
+ }
+ 
+ .cruz2:before {
+   left: 50%;
+   width: 30%;
+   margin-left: -15%;
+   height: 100%;
+ }
+ 
+ .cruz2:after {
+   top: 50%;
+   height: 30%;
+   margin-top: -15%;
+   width: 100%;
+ }
 
 
+ 
+ 
 
 /* ---------- */
 
