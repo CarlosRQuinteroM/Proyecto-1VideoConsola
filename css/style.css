@@ -517,6 +517,7 @@ img.camara{
      padding-top: 4em;
      font-size: 00.81em;
  }
+ /* boton CONTROL  */
  .tV{
     display: flex;
     position: absolute;
@@ -548,4 +549,27 @@ img.camara{
      top: 2.87em;
      font-size: 00.81em;
      color: rgb(68, 68, 68);
+ }
+ /* Boton power */
+
+ .powerEspacio{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 3em;
+    height: 4em;
+    top: 2.6em;
+    left: 63em;
+
+ }
+ .power{
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 2.5em;
+    height: 2.5em;
+    left: 2em;
+    top: -0.59em;
+    border-radius: 50%;
+    background-color: rgb(160, 160, 160);
  }
