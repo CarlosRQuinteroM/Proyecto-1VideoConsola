@@ -390,9 +390,12 @@ img.camara{
 }
 .botonesInferiores{
     display: flex;
-    position: relative;
+    position: absolute;
     align-items: center;
-    width: em;
-    height: 1.7em;    
-    border: solid black 1px;
+    top: 34em;
+    width: 85em;
+    height: 8em;
+    display: flex;
+    justify-items: center;
+    border: solid  rgb(165, 165, 165) 0.2em;
 }
