@@ -399,3 +399,30 @@ img.camara{
     justify-items: center;
     border: solid  rgb(165, 165, 165) 0.2em;
 }
+/* Parlantes Inferiores */
+.cornetasA-1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 4.5em;
+    left: 13em;
+
+}
+.cornetaB-1{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 4.5em;
+    left: 68em;
+
+}
+
+.radioParlantes{
+    width: 2em;
+    height: 0.8em;
+    border-top-right-radius:30% ;
+    border-top-left-radius:30%;
+    border-bottom-right-radius:30%;
+    border-bottom-left-radius:30% ;
+    background-color: rgb(56, 56, 56);
+}
