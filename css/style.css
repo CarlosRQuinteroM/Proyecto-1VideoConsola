@@ -405,7 +405,7 @@ img.camara{
     position: absolute;
     align-items: center;
     top: 4.5em;
-    left: 13em;
+    left: 12em;
 
 }
 .cornetaB-1{
@@ -413,7 +413,7 @@ img.camara{
     position: absolute;
     align-items: center;
     top: 4.5em;
-    left: 68em;
+    left: 70em;
 }
 .radioParlantes{
     width: 2em;
@@ -430,7 +430,7 @@ img.camara{
     display: flex;
     position: absolute;
     align-items: center;
-    left: 19em;
+    left: 18em;
     top: 1em;
 }
 .wiiU{
