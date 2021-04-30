@@ -454,3 +454,37 @@ img.camara{
     color: grey;
      width: 0.1em;
  }
+ .botonHome{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    border:grey solid 1px;
+    left: 38em;
+    background-color: rgb(62, 136, 206);
+ }
+ .home{
+    display: flex;
+    position: absolute;
+    align-items: center;
+     width: 3em;
+     height: 3em;
+     border-radius: 50%;
+     background-color: rgb(212, 212, 212);
+     border:rgb(116, 114, 114) solid 1px;
+     padding: 2em ;
+     left: 0.25em;
+ }
+ .home:hover{
+     transform: scale(1.1);
+     transition: 0.1s;
+ }
+ .imgHome{
+    display: flex;
+    position: absolute;
+    align-items: center;
+     width: 2.5em;
+     left:0.8em;
+ }
