@@ -18,3 +18,7 @@
 > * Responsive Flexbox.
 > * Sistema de medicion **em** .. **rem**.. **%**
 > * layouts
+***
+### Resultado
+> Claro esta que después de hacer todos estos pasos, aplicar todo lo aprendido en esta primera semana de bootcamp Geekshub, claro y pasar **Muchas** horas Probando nuevas técnicas métodos y escapatorias a varios callejones sin salida que me consegui en el trascurso de esta semana tengo que admitir que me siento orgulloso del trabajo realizado creo haber llegado a un excelente nivel de igualdad, pero claro Teniendo en mente que aún queda mucho camino por recorrer en este nuevo camino de **Full Stack Web Developer**.
+![Resultado]()
