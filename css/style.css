@@ -261,6 +261,14 @@ img.camara{
     background: rgb(203,203,203);
     background: linear-gradient(220deg, rgba(203,203,203,1) 1%, rgba(121,120,120,1) 13%, rgba(75,75,75,1) 27%, rgba(65,65,65,1) 37%, rgba(48,48,48,1) 56%, rgba(33,33,33,1) 70%);
 }
+
+.pantallaGif {
+    display: flex;
+    position: relative;
+    width: 48em;
+    height: 27em;
+}
+
 .botonoesIzquierda{
     display: flex;
     position: absolute;
